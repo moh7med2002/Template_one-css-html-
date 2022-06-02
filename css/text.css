@@ -129,14 +129,18 @@ ul{
     justify-content: center;
     align-items: center;
 }
+.head{
+    background-color: rgba(4,9,30,0.7); 
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 75%;
     margin: auto;
-    background-color: rgba(4,9,30,0.7); 
     z-index: 2;
     right: 11%;
 }
