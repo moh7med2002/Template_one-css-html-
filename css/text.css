@@ -139,7 +139,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 100%;
     margin: auto;
     z-index: 2;
     right: 11%;
@@ -832,6 +832,11 @@ header{
     background-color: var(--maincolor);
     padding: 15px;
     z-index: 2;
+    transition: .3s;
+    cursor: pointer;
+}
+.arrow:hover{
+    background-color: black;
 }
 .arrow a i{
     color: white;
